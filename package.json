@@ -1,9 +1,8 @@
 {
   "name": "onnokicu",
   "displayName": "OnnoKicu",
-  "icon": "icon.png",
   "description": "Just for personal.",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "publisher": "NazmusSayad",
   "repository": {
     "type": "git",
