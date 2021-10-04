@@ -1,12 +1,13 @@
 {
   "name": "onnokicu",
   "displayName": "OnnoKicu",
+  "icon": "icon.png",
   "description": "Just for personal.",
   "version": "0.2.0",
   "publisher": "NazmusSayad",
   "repository": {
     "type": "git",
-    "url": "https://github.com/NazmusSayad/onnokicu-dark"
+    "url": "https://github.com/NazmusSayad/onnokicu-vs-code-dark-theme"
   },
   "engines": {
     "vscode": "^1.60.0"
