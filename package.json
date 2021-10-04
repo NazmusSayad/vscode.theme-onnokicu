@@ -1,0 +1,21 @@
+{
+    "name": "onnokicu",
+    "displayName": "onnokicu",
+    "description": "Just for personal.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "OnnoKicu Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/onnokicu-theme.json"
+            }
+        ]
+    }
+}
