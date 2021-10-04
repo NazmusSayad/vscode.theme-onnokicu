@@ -1,13 +1,34 @@
-# README
-## This is the README for your extension "onnokicu"
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+# Valorant Theme by Tasnimul Hasan
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
+Here is the VS Code theme that I use. I like dark themes so it's dark :) 
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+I took inspiration from the FPS game [Valorant](https://playvalorant.com/) and the [Dark+ Material](https://marketplace.visualstudio.com/items?itemName=vangware.dark-plus-material) themes.
 
-**Enjoy!**
+Will be maintaining this as I have time, thanks for your understanding! 🙏🏽
+
+## Screenshots
+
+### HTML
+
+![HTML screenshot](https://github.com/TasnimulHasan007/valorant-theme/raw/main/screenshots/html.png)
+
+### CSS
+
+![CSS screenshot](https://github.com/TasnimulHasan007/valorant-theme/raw/main/screenshots/css.png)
+
+### JavaScript
+
+![JavaScript screenshot](https://github.com/TasnimulHasan007/valorant-theme/raw/main/screenshots/js.png)
+
+### Terminal
+
+![Terminal screenshot](https://github.com/TasnimulHasan007/valorant-theme/raw/main/screenshots/terminal.jpeg)
+
+### Text Selection
+
+![Text Selection screenshot](https://github.com/TasnimulHasan007/valorant-theme/raw/main/screenshots/text-selection.jpeg)
+
+### Widgets
+
+![Widgets screenshot](https://github.com/TasnimulHasan007/valorant-theme/raw/main/screenshots/widgets.jpeg)
+
