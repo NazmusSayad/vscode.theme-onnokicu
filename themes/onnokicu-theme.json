@@ -1,7 +1,6 @@
 {
   "name": "OnnoKicu Dark Theme",
   "type": "dark",
-  "semanticHighlighting": true,
   "colors": {
     "activityBar.background": "#1b1a1e",
     "activityBar.foreground": "#f5f5f5",
