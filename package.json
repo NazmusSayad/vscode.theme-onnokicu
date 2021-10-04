@@ -7,7 +7,7 @@
   "publisher": "NazmusSayad",
   "repository": {
     "type": "git",
-    "url": "https://github.com/NazmusSayad/onnokicu-vs-code-dark-theme"
+    "url": "https://github.com/NazmusSayad/onnokicu-vs-code-theme"
   },
   "engines": {
     "vscode": "^1.60.0"
