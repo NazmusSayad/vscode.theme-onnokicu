@@ -1900,6 +1900,7 @@
     "statusBarItem.hoverBackground": "#2c313a",
     "statusBarItem.remoteBackground": "#4d78cc",
     "statusBarItem.remoteForeground": "#f8fafd",
+    "tab.activeBorderTop": "#666",
     "tab.activeBackground": "#23272e",
     "tab.activeForeground": "#dcdcdc",
     "tab.border": "#181a1f",
