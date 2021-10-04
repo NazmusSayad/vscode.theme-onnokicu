@@ -107,7 +107,7 @@
     "titleBar.inactiveBackground": "#111111",
     "titleBar.inactiveForeground": "#DDDDDD",
     "menu.background": "#252629",
-    "menu.foreground": "#abb2bf",
+    "menu.foreground": "#dcdcdc",
     "notificationCenterHeader.background": "#38393b"
   },
   "tokenColors": [
