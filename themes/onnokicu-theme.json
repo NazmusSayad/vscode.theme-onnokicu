@@ -77,6 +77,7 @@
     "statusBar.noFolderBackground": "#1c1c22",
     "statusBarItem.hoverBackground": "#323539",
     "tab.activeBackground": "#29292f",
+    "tab.activeBorderTop": "#999",
     "tab.border": "#171719",
     "tab.hoverBackground": "#343538",
     "tab.inactiveBackground": "#1e1e22",
@@ -1618,6 +1619,13 @@
       "scope": ["support.type.swift", "support.type.vb.asp"],
       "settings": {
         "foreground": "#e5c07b"
+      }
+    },
+    {
+      "name": "italic font",
+      "scope": ["comment"],
+      "settings": {
+        "fontStyle": "italic"
       }
     }
   ]
