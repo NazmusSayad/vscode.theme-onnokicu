@@ -2,7 +2,7 @@
   "name": "onnokicu",
   "displayName": "OnnoKicu",
   "description": "Just for personal.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "NazmusSayad",
   "repository": {
     "type": "git",
@@ -17,7 +17,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "OnnoKicu Dark Theme",
+        "label": "OnnoKicu Dark Theme <3",
         "uiTheme": "vs-dark",
         "path": "./themes/onnokicu-theme.json"
       }
