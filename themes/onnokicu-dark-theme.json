@@ -1,30 +1,4 @@
 {
-  "name": "One Dark Pro",
-  "type": "dark",
-  "semanticHighlighting": true,
-  "semanticTokenColors": {
-    "enumMember": {
-      "foreground": "#56b6c2"
-    },
-    "variable.constant": {
-      "foreground": "#d19a66"
-    },
-    "variable.defaultLibrary": {
-      "foreground": "#e5c07b"
-    },
-    "variable:dart": {
-      "foreground": "#d19a66"
-    },
-    "property:dart": {
-      "foreground": "#d19a66"
-    },
-    "annotation:dart": {
-      "foreground": "#d19a66"
-    },
-    "parameter.label:dart": {
-      "foreground": "#abb2bf"
-    }
-  },
   "colors": {
     "activityBar.background": "#1b1a1e",
     "activityBar.foreground": "#d7dae0",
@@ -134,7 +108,32 @@
     "menu.foreground": "#dcdcdc",
     "notificationCenterHeader.background": "#38393b"
   },
-
+  "name": "OnnoKicu Dark Theme",
+  "type": "dark",
+  "semanticHighlighting": true,
+  "semanticTokenColors": {
+    "enumMember": {
+      "foreground": "#56b6c2"
+    },
+    "variable.constant": {
+      "foreground": "#d19a66"
+    },
+    "variable.defaultLibrary": {
+      "foreground": "#e5c07b"
+    },
+    "variable:dart": {
+      "foreground": "#d19a66"
+    },
+    "property:dart": {
+      "foreground": "#d19a66"
+    },
+    "annotation:dart": {
+      "foreground": "#d19a66"
+    },
+    "parameter.label:dart": {
+      "foreground": "#abb2bf"
+    }
+  },
   "tokenColors": [
     {
       "name": "unison punctuation",
