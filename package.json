@@ -1,1 +1,1 @@
-{"name":"onnokicu","displayName":"OnnoKicu","version":"2.3.5","publisher":"NazmusSayad","description":"","engines":{"vscode":"^1.50.0"},"categories":["Themes"],"contributes":{"themes":[{"label":"OnnoKicu","uiTheme":"vs-dark","path":"theme.json"}]}}
+{"name":"onnokicu","displayName":"OnnoKicu","version":"2.3.6","publisher":"NazmusSayad","description":"","engines":{"vscode":"^1.50.0"},"categories":["Themes"],"contributes":{"themes":[{"label":"OnnoKicu","uiTheme":"vs-dark","path":"theme.json"}]}}
