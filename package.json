@@ -1,1 +1,25 @@
-{"name":"onnokicu","displayName":"OnnoKicu","version":"2.3.7","publisher":"NazmusSayad","description":"","engines":{"vscode":"^1.50.0"},"categories":["Themes"],"contributes":{"themes":[{"label":"OnnoKicu","uiTheme":"vs-dark","path":"theme.json"}]}}
+{
+  "name": "onnokicu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NazmusSayad/vscode-theme.onnokicu--.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NazmusSayad/vscode-theme.onnokicu--/issues"
+  },
+  "homepage": "https://github.com/NazmusSayad/vscode-theme.onnokicu--#readme",
+  "dependencies": {
+    "shelljs": "^0.8.5"
+  },
+  "devDependencies": {
+    "vsce": "^2.9.2"
+  }
+}
