@@ -1,1 +1,0 @@
-module.exports.DESTINATION = "./dist"

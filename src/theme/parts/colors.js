@@ -6,7 +6,7 @@ module.exports = {
   "activityBarBadge.foreground": "#464646",
   "badge.background": "#282c34",
   "button.background": "#333135",
-  "contrastBorder": "#ffffff00",
+  contrastBorder: "#ffffff00",
   "debugToolBar.background": "#21252b",
   "diffEditor.border": "#74807488",
   "diffEditor.insertedTextBackground": "#18889e33",
@@ -54,7 +54,7 @@ module.exports = {
   "editorSuggestWidget.selectedBackground": "#2c313a",
   "editorWhitespace.foreground": "#3b4048",
   "editorWidget.background": "#21252b",
-  "focusBorder": "#464646",
+  focusBorder: "#464646",
   "input.background": "#1b1b1b",
   "list.activeSelectionBackground": "#2c313a",
   "list.activeSelectionForeground": "#d7dae0",
@@ -114,5 +114,5 @@ module.exports = {
   "titleBar.activeBackground": "#1b1a1e",
   "titleBar.activeForeground": "#9da5b4",
   "titleBar.inactiveBackground": "#27272a",
-  "titleBar.inactiveForeground": "#6b717d"
+  "titleBar.inactiveForeground": "#6b717d",
 }

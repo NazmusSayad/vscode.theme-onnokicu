@@ -1,25 +1,11 @@
 {
-  "name": "onnokicu",
-  "version": "1.0.0",
-  "description": "",
-  "main": "src/index.js",
   "scripts": {
-    "build": "node ."
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/NazmusSayad/vscode-theme.onnokicu--.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/NazmusSayad/vscode-theme.onnokicu--/issues"
-  },
-  "homepage": "https://github.com/NazmusSayad/vscode-theme.onnokicu--#readme",
-  "dependencies": {
-    "shelljs": "^0.8.5"
+    "build": "node src"
   },
   "devDependencies": {
-    "vsce": "^2.9.2"
+    "vsce": "latest"
+  },
+  "dependencies": {
+    "shelljs": "latest"
   }
 }
