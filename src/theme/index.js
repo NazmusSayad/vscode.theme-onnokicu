@@ -5,7 +5,7 @@ const semanticTokenColors = require("./parts/semanticTokenColors")
 
 module.exports = {
   colors,
+  tokenColors,
   semanticHighlighting,
   semanticTokenColors,
-  tokenColors,
 }
