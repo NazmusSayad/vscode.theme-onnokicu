@@ -1626,8 +1626,7 @@ module.exports = [
   {
     scope: "punctuation.definition.comment",
     settings: {
-      foreground: color.gray + "55",
-      fontStyle: "",
+      foreground: color.gray + "60",
     },
   },
 ]
