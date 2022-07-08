@@ -25,6 +25,7 @@ module.exports = {
   "editor.wordHighlightBorder": "#7f848e",
   "editor.wordHighlightStrongBackground": "#abb2bf26",
   "editor.wordHighlightStrongBorder": "#7f848e",
+  "editorError.foreground": "#ff0000",
 
   "editorBracketHighlight.foreground1": "#ff6188d0",
   "editorBracketHighlight.foreground2": "#fc9867d0",
@@ -33,12 +34,13 @@ module.exports = {
   "editorBracketHighlight.foreground5": "#78dce8d0",
   "editorBracketHighlight.foreground6": "#ab9df2d0",
 
-  "editorError.foreground": "#ff0000",
   "editorBracketHighlight.unexpectedBracket.foreground": "#ffffff",
   "editorBracketMatch.background": "#515a6b",
   "editorBracketMatch.border": "#515a6b",
+
   "editorCursor.background": "#ffffffc9",
   "editorCursor.foreground": "#528bff",
+
   "editorGroup.border": "#181a1f",
   "editorGroup.emptyBackground": "#191a1d",
   "editorGroupHeader.tabsBackground": "#1c1c1e",

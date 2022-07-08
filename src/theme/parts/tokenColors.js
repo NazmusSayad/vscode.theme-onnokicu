@@ -516,7 +516,12 @@ module.exports = [
     },
   },
   {
-    scope: ["entity.name.function", "meta.require", "support.function.any-method", "variable.function"],
+    scope: [
+      "entity.name.function",
+      "meta.require",
+      "support.function.any-method",
+      "variable.function",
+    ],
     settings: {
       foreground: color.blue,
     },
@@ -1025,7 +1030,8 @@ module.exports = [
     },
   },
   {
-    scope: "keyword.operator.logical.php,keyword.operator.bitwise.php,keyword.operator.arithmetic.php",
+    scope:
+      "keyword.operator.logical.php,keyword.operator.bitwise.php,keyword.operator.arithmetic.php",
     settings: {
       foreground: color.sky,
     },
@@ -1276,7 +1282,10 @@ module.exports = [
     },
   },
   {
-    scope: ["entity.other.attribute-name.pseudo-element", "entity.other.attribute-name.pseudo-class"],
+    scope: [
+      "entity.other.attribute-name.pseudo-element",
+      "entity.other.attribute-name.pseudo-class",
+    ],
     settings: {
       foreground: color.sky,
     },
@@ -1467,7 +1476,11 @@ module.exports = [
     },
   },
   {
-    scope: ["entity.name.label.cs", "markup.heading.setext.1.markdown", "markup.heading.setext.2.markdown"],
+    scope: [
+      "entity.name.label.cs",
+      "markup.heading.setext.1.markdown",
+      "markup.heading.setext.2.markdown",
+    ],
     settings: {
       foreground: color.orange,
     },
