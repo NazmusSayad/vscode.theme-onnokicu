@@ -1606,7 +1606,7 @@ module.exports = [
     },
   },
   {
-    scope: "variable.language.this.js",
+    scope: "variable.language.this",
     settings: {
       foreground: color.orange2,
     },

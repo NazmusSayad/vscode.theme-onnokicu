@@ -18,7 +18,7 @@ themes.forEach((config) => {
   fs.writeFileSync(config.path, JSON.stringify(theme))
 })
 
-console.log(": Compile done!")
+console.log(":) Compile done!")
 
 // Play with package.json
 fs.renameSync("package.json", "package-temp.json")
