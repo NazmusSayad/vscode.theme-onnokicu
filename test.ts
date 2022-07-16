@@ -1,3 +1,0 @@
-undefined
-null
-this
