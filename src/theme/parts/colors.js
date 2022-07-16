@@ -79,9 +79,12 @@ module.exports = {
   "scrollbarSlider.activeBackground": "#41414a",
   "scrollbarSlider.background": "#4e566660",
   "scrollbarSlider.hoverBackground": "#5a637580",
+
+  "sideBar.border": "#1b1b1b",
   "sideBar.background": "#1e1e22",
   "sideBar.foreground": "#abb2bf",
   "sideBarSectionHeader.background": "#282c34",
+
   "statusBar.background": "#1b1a1e",
   "statusBar.debuggingBackground": "#531a79",
   "statusBar.debuggingBorder": "#531a79",
@@ -90,6 +93,7 @@ module.exports = {
   "statusBar.noFolderBackground": "#1c1c22",
   "statusBarItem.hoverBackground": "#323539",
   "statusBar.focusBorder": "#323539",
+
   "tab.activeBackground": "#29292f",
   "tab.activeForeground": "#abb2bf",
   "tab.border": "#171719",
