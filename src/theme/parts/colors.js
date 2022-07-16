@@ -80,7 +80,7 @@ module.exports = {
   "scrollbarSlider.background": "#4e566660",
   "scrollbarSlider.hoverBackground": "#5a637580",
 
-  "sideBar.border": "#1b1b1b",
+  "sideBar.border": "#171719",
   "sideBar.background": "#1e1e22",
   "sideBar.foreground": "#abb2bf",
   "sideBarSectionHeader.background": "#282c34",
