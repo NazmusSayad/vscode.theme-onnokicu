@@ -1699,4 +1699,14 @@ module.exports = [
       fontStyle: "italic",
     },
   },
+  {
+    scope: [
+      "support.type.object.module.js",
+      "keyword.control.export.js",
+      "keyword.control.default.js",
+    ],
+    settings: {
+      foreground: color.violet,
+    },
+  },
 ]
