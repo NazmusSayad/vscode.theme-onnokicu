@@ -4,7 +4,7 @@ module.exports = {
   "activityBarBadge.background": "#4d78cc",
   "activityBarBadge.foreground": "#f8fafd",
 
-  "badge.background": "#1e1f27",
+  "badge.background": "#1e1f26",
 
   "button.background": "#404754",
   "button.secondaryBackground": "#30333d",
@@ -17,7 +17,7 @@ module.exports = {
   "dropdown.background": "#1e2227",
   "dropdown.border": "#1e2227",
 
-  "editor.background": "#1e1f27",
+  "editor.background": "#1e1f26",
   "editor.foreground": "#abb2bf",
 
   "editor.findMatchBackground": "#42557b25",
@@ -128,12 +128,12 @@ module.exports = {
   "scrollbarSlider.background": "#4e566650",
   "scrollbarSlider.hoverBackground": "#5a637580",
 
-  "settings.focusedRowBackground": "#1e1f27",
+  "settings.focusedRowBackground": "#1e1f26",
   "settings.headerForeground": "#fff",
 
   "sideBar.background": "#1b1c22",
   "sideBar.foreground": "#abb2bf",
-  "sideBarSectionHeader.background": "#1e1f27",
+  "sideBarSectionHeader.background": "#1e1f26",
   "sideBarSectionHeader.foreground": "#abb2bf",
 
   "statusBar.foreground": "#9da5b4",
@@ -147,7 +147,7 @@ module.exports = {
   "statusBarItem.remoteForeground": "#f8fafd",
 
   "editorGroupHeader.tabsBackground": "#1B1C22",
-  "tab.activeBackground": "#1e1f27",
+  "tab.activeBackground": "#1e1f26",
   "tab.activeBorder": "#00000000",
   "tab.lastPinnedBorder": "#00000000",
   "tab.activeBorderTop": "#de73ff30",
@@ -173,7 +173,7 @@ module.exports = {
   "terminal.ansiRed": "#e05561",
   "terminal.ansiWhite": "#d7dae0",
   "terminal.ansiYellow": "#d18f52",
-  "terminal.background": "#1e1f27",
+  "terminal.background": "#1e1f26",
   "terminal.border": "#3e4452",
   "terminal.foreground": "#abb2bf",
   "terminal.selectionBackground": "#abb2bf30",
