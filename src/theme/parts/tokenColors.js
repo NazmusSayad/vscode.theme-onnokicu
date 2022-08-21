@@ -1739,4 +1739,10 @@ module.exports = [
       fontStyle: '',
     },
   },
+  {
+    scope: 'variable.language.super.js,variable.language.super.ts',
+    settings: {
+      foreground: color.violet,
+    },
+  },
 ]
