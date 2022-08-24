@@ -1627,15 +1627,20 @@ module.exports = [
       foreground: color.orange,
     },
   },
+
+  //===================================================
+
   {
-    scope: 'variable.language.this',
+    scope: ['variable.language.this', 'variable.language.arguments'],
     settings: {
       foreground: color.orange2,
     },
   },
   {
-    scope:
-      'entity.other.attribute-name.id,entity.other.attribute-name.class.css',
+    scope: [
+      'entity.other.attribute-name.id',
+      'entity.other.attribute-name.class',
+    ],
     settings: {
       foreground: color.blue,
     },
@@ -1647,8 +1652,7 @@ module.exports = [
     },
   },
   {
-    scope:
-      'punctuation.definition.tag.end.html,punctuation.definition.tag.begin.html',
+    scope: 'punctuation.definition.tag',
     settings: {
       foreground: color.grayLight,
     },
@@ -1656,13 +1660,14 @@ module.exports = [
   {
     scope: 'comment',
     settings: {
-      foreground: color.gray,
       fontStyle: 'italic',
+      foreground: color.gray,
     },
   },
   {
     scope: 'punctuation.definition.comment',
     settings: {
+      fontStyle: '',
       foreground: color.gray + '60',
     },
   },
@@ -1715,9 +1720,9 @@ module.exports = [
       'keyword.control.warn.scss',
       'keyword.control.while.scss',
 
-      'support.type.object.module.js',
-      'keyword.control.export.js',
-      'keyword.control.default.js',
+      'support.type.object.module',
+      'keyword.control.export',
+      'keyword.control.default',
     ],
     settings: {
       fontStyle: 'italic',
@@ -1725,22 +1730,11 @@ module.exports = [
   },
   {
     scope: [
-      'support.type.object.module.js',
-      'keyword.control.export.js',
-      'keyword.control.default.js',
+      'support.type.object.module',
+      'keyword.control.export',
+      'keyword.control.default',
+      'variable.language.super',
     ],
-    settings: {
-      foreground: color.violet,
-    },
-  },
-  {
-    scope: 'punctuation.definition.comment',
-    settings: {
-      fontStyle: '',
-    },
-  },
-  {
-    scope: 'variable.language.super.js,variable.language.super.ts',
     settings: {
       foreground: color.violet,
     },

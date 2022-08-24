@@ -1,25 +1,25 @@
-const color = require("../color.js")
+const color = require('../color.js')
 
 module.exports = {
   enumMember: {
     foreground: color.sky,
   },
-  "variable.constant": {
+  'variable.constant': {
     foreground: color.orange2,
   },
-  "variable.defaultLibrary": {
+  'variable.defaultLibrary': {
     foreground: color.yellow,
   },
-  "variable:dart": {
+  'variable:dart': {
     foreground: color.orange2,
   },
-  "property:dart": {
+  'property:dart': {
     foreground: color.orange2,
   },
-  "annotation:dart": {
+  'annotation:dart': {
     foreground: color.orange2,
   },
-  "parameter.label:dart": {
+  'parameter.label:dart': {
     foreground: color.light,
   },
   macro: {
