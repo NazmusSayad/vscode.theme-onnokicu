@@ -1628,8 +1628,6 @@ module.exports = [
     },
   },
 
-  //===================================================
-
   {
     scope: ['variable.language.this', 'variable.language.arguments'],
     settings: {
@@ -1667,7 +1665,6 @@ module.exports = [
   {
     scope: 'punctuation.definition.comment',
     settings: {
-      fontStyle: '',
       foreground: color.gray + '60',
     },
   },
