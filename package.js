@@ -1,7 +1,7 @@
 module.exports = {
   name: 'onnokicu',
   displayName: 'OnnoKicu',
-  version: '2.3.18',
+  version: '2.3.19',
   publisher: 'NazmusSayad',
   description: '',
   engines: {
