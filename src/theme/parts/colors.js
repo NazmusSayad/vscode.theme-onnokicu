@@ -1,10 +1,10 @@
 module.exports = {
-  'activityBar.background': '#1a1b21',
+  'activityBar.background': '#1E2227',
   'activityBar.foreground': '#d7dae0',
   'activityBarBadge.background': '#4d78cc',
-  'activityBarBadge.foreground': '#f8fafd',
+  'activityBarBadge.foreground': '#e6e6e6',
 
-  'badge.background': '#1e1f26',
+  'badge.background': '#21252C',
 
   'button.background': '#404754',
   'button.secondaryBackground': '#30333d',
@@ -17,25 +17,25 @@ module.exports = {
   'dropdown.background': '#1e2227',
   'dropdown.border': '#1e2227',
 
-  'editor.background': '#1e1f26',
+  'editor.background': '#21252C',
   'editor.foreground': '#abb2bf',
 
   'editor.findMatchBackground': '#42557b25',
   'editor.findMatchBorder': '#457dff80',
   'editor.findMatchHighlightBackground': '#6199ff30',
 
-  'editorBracketHighlight.unexpectedBracket.foreground': '#fff',
+  'editorBracketHighlight.unexpectedBracket.foreground': '#e6e6e6',
 
-  'editorBracketHighlight.foreground1': '#ff6188d0',
-  'editorBracketHighlight.foreground2': '#fc9867d0',
-  'editorBracketHighlight.foreground3': '#ffd866c0',
-  'editorBracketHighlight.foreground4': '#a9dc76d0',
-  'editorBracketHighlight.foreground5': '#78dce8d0',
-  'editorBracketHighlight.foreground6': '#ab9df2d0',
+  // 'editorBracketHighlight.foreground1': '#ff6188d0',
+  // 'editorBracketHighlight.foreground2': '#fc9867d0',
+  // 'editorBracketHighlight.foreground3': '#ffd866c0',
+  // 'editorBracketHighlight.foreground4': '#a9dc76d0',
+  // 'editorBracketHighlight.foreground5': '#78dce8d0',
+  // 'editorBracketHighlight.foreground6': '#ab9df2d0',
 
-  // "editorBracketHighlight.foreground1": "#d19a66",
-  // "editorBracketHighlight.foreground2": "#c678dd",
-  // "editorBracketHighlight.foreground3": "#56b6c2",
+  'editorBracketHighlight.foreground1': '#d19a66',
+  'editorBracketHighlight.foreground2': '#9186CC',
+  'editorBracketHighlight.foreground3': '#56b6c2',
 
   'editorInlayHint.foreground': '#abb2bf',
   'editorInlayHint.background': '#2c313c',
@@ -53,7 +53,7 @@ module.exports = {
   'editorOverviewRuler.modifiedBackground': '#948b60',
 
   'editor.selectionBackground': '#67769650',
-  'editor.selectionHighlightBackground': '#ffffff10',
+  'editor.selectionHighlightBackground': '#e6e6e610',
   'editor.selectionHighlightBorder': '#dddddd40',
 
   'editor.wordHighlightBackground': '#d2e0ff15',
@@ -64,10 +64,10 @@ module.exports = {
   'editorBracketMatch.background': '#515a6b50',
   'editorBracketMatch.border': '#515a6b90',
 
-  'editorCursor.background': '#ffffffc9',
+  'editorCursor.background': '#e6e6e6c9',
   'editorCursor.foreground': '#528bff',
 
-  'editorError.foreground': '#ff0000',
+  'editorError.foreground': '#ee0000',
   'editorWarning.foreground': '#d19a66',
 
   'editorGroup.background': '#181a1f',
@@ -83,25 +83,25 @@ module.exports = {
   'editorMarkerNavigation.background': '#1e2227',
   'editorRuler.foreground': '#abb2bf26',
 
-  'editorSuggestWidget.background': '#202128',
+  'editorSuggestWidget.background': '#1E2227',
   'editorSuggestWidget.selectedBackground': '#2c313a',
   'editorSuggestWidget.foreground': '#abb2bf',
   'editorSuggestWidget.selectedForeground': '#d7dae0',
-  'editorSuggestWidget.border': '#1A1b21',
+  'editorSuggestWidget.border': '#1E2227',
 
-  'editorWhitespace.foreground': '#ffffff15',
+  'editorWhitespace.foreground': '#e6e6e615',
   'editorWidget.background': '#1e2227',
 
   focusBorder: '#3e4452',
   'gitDecoration.ignoredResourceForeground': '#636b78',
 
-  'input.background': '#1b1d23',
+  'input.background': '#1D1F23',
   'input.foreground': '#abb2bf',
 
   'list.activeSelectionBackground': '#2c313a',
   'list.activeSelectionForeground': '#d7dae0',
   'list.focusBackground': '#323842',
-  'list.focusForeground': '#f0f0f0',
+  'list.focusForeground': '#e6e6e6',
   'list.highlightForeground': '#d7dae0',
   'list.hoverBackground': '#2c313a',
   'list.hoverForeground': '#abb2bf',
@@ -119,7 +119,7 @@ module.exports = {
   'panel.border': '#3e4452',
   'panelSectionHeader.background': '#1e2227',
 
-  'peekViewEditor.background': '#1b1d23',
+  'peekViewEditor.background': '#1D1F23',
   'peekViewEditor.matchHighlightBackground': '#29244b',
   'peekViewResult.background': '#22262b',
 
@@ -128,32 +128,32 @@ module.exports = {
   'scrollbarSlider.background': '#4e566650',
   'scrollbarSlider.hoverBackground': '#5a637580',
 
-  'settings.focusedRowBackground': '#1e1f26',
-  'settings.headerForeground': '#fff',
+  'settings.focusedRowBackground': '#21252C',
+  'settings.headerForeground': '#e6e6e6',
 
-  'sideBar.background': '#1b1c22',
+  'sideBar.background': '#1E2227',
   'sideBar.foreground': '#abb2bf',
-  'sideBarSectionHeader.background': '#1e1f26',
+  'sideBarSectionHeader.background': '#21252C',
   'sideBarSectionHeader.foreground': '#abb2bf',
 
   'statusBar.foreground': '#9da5b4',
-  'statusBar.background': '#1a1b21',
+  'statusBar.background': '#1E2227',
   'statusBar.focusBorder': '#3e4452',
   'statusBar.debuggingBackground': '#cc6633',
-  'statusBar.debuggingBorder': '#ff000000',
-  'statusBar.debuggingForeground': '#ffffff',
-  'statusBar.noFolderBackground': '#1a1b21',
+  'statusBar.debuggingBorder': '#00000000',
+  'statusBar.debuggingForeground': '#e6e6e6',
+  'statusBar.noFolderBackground': '#1E2227',
   'statusBarItem.remoteBackground': '#4d78cc',
-  'statusBarItem.remoteForeground': '#f8fafd',
+  'statusBarItem.remoteForeground': '#e6e6e6',
 
-  'editorGroupHeader.tabsBackground': '#1B1C22',
-  'tab.activeBackground': '#1e1f26',
+  'editorGroupHeader.tabsBackground': '#1E2227',
+  'tab.activeBackground': '#21252C',
   'tab.activeBorder': '#00000000',
   'tab.lastPinnedBorder': '#00000000',
   'tab.activeForeground': '#abb2bf',
   'tab.border': '#00000000',
   'tab.hoverBackground': '#323842',
-  'tab.inactiveBackground': '#1a1b21',
+  'tab.inactiveBackground': '#1E2227',
   'tab.unfocusedHoverBackground': '#323842',
   'tab.activeBorderTop': '#abb2bf30',
   'tab.activeModifiedBorder': '#abb2bf50',
@@ -177,7 +177,7 @@ module.exports = {
   'terminal.ansiRed': '#e05561',
   'terminal.ansiWhite': '#d7dae0',
   'terminal.ansiYellow': '#d18f52',
-  'terminal.background': '#1e1f26',
+  'terminal.background': '#21252C',
   'terminal.border': '#3e4452',
   'terminal.foreground': '#abb2bf',
   'terminal.selectionBackground': '#abb2bf30',
@@ -187,12 +187,12 @@ module.exports = {
   'textLink.foreground': '#61afef',
   'textPreformat.foreground': '#d19a66',
 
-  'titleBar.activeBackground': '#1a1b21',
+  'titleBar.activeBackground': '#1E2227',
   'titleBar.activeForeground': '#9da5b4',
   'titleBar.inactiveBackground': '#1e2227',
   'titleBar.inactiveForeground': '#6b717d',
 
-  'tree.indentGuidesStroke': '#ffffff1d',
+  'tree.indentGuidesStroke': '#e6e6e61d',
   'walkThrough.embeddedEditorBackground': '#2e3440',
   'welcomePage.buttonHoverBackground': '#404754',
 }
