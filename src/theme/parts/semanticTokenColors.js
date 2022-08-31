@@ -1,4 +1,4 @@
-const color = require('../color.js')
+const color = require('../syntax-color')
 
 module.exports = {
   enumMember: {
