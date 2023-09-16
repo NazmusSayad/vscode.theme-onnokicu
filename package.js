@@ -1,7 +1,8 @@
 module.exports = {
   name: 'onnokicu',
+  icon: 'icon.png',
   displayName: 'OnnoKicu',
-  version: '2.4.1',
+  version: '2.4.2',
   publisher: 'NazmusSayad',
   description: '',
   engines: {
@@ -16,5 +17,9 @@ module.exports = {
         path: 'theme',
       },
     ],
+  },
+  repository: {
+    type: 'git',
+    url: 'git+github.com:nazmussayad/vscode-theme.onnokicu--.git',
   },
 }
