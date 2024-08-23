@@ -162,25 +162,33 @@ module.exports = {
   'tab.unfocusedInactiveModifiedBorder': '#abb2bf50',
 
   'terminal.ansiBlack': '#3f4451',
-  'terminal.ansiBlue': '#4aa5f0',
   'terminal.ansiBrightBlack': '#4f5666',
+
+  'terminal.ansiBlue': '#4aa5f0',
   'terminal.ansiBrightBlue': '#4dc4ff',
-  'terminal.ansiBrightCyan': '#4cd1e0',
-  'terminal.ansiBrightGreen': '#a5e075',
-  'terminal.ansiBrightMagenta': '#de73ff',
-  'terminal.ansiBrightRed': '#ff616e',
-  'terminal.ansiBrightWhite': '#e6e6e6',
-  'terminal.ansiBrightYellow': '#f0a45d',
+
   'terminal.ansiCyan': '#42b3c2',
+  'terminal.ansiBrightCyan': '#4cd1e0',
+
   'terminal.ansiGreen': '#8cc265',
+  'terminal.ansiBrightGreen': '#a5e075',
+
   'terminal.ansiMagenta': '#c162de',
+  'terminal.ansiBrightMagenta': '#de73ff',
+
   'terminal.ansiRed': '#e05561',
+  'terminal.ansiBrightRed': '#ff616e',
+
   'terminal.ansiWhite': '#d7dae0',
+  'terminal.ansiBrightWhite': '#e6e6e6',
+
   'terminal.ansiYellow': '#d18f52',
-  'terminal.background': '#21252C',
+  'terminal.ansiBrightYellow': '#f0a45d',
+
   'terminal.border': '#3e4452',
+  'terminal.background': '#21252C',
   'terminal.foreground': '#abb2bf',
-  'terminal.selectionBackground': '#abb2bf30',
+  'terminal.selectionBackground': '#FFFF0060',
 
   'textBlockQuote.background': '#2e3440',
   'textBlockQuote.border': '#4b5362',
