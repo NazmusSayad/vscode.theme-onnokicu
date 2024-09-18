@@ -1,11 +1,14 @@
 {
+  "type": "commonjs",
   "scripts": {
-    "build": "node src"
+    "dev": "run ./src/index.ts --ext ts",
+    "build": "ts-node ./src/index.ts"
   },
   "devDependencies": {
-    "vsce": "latest"
-  },
-  "dependencies": {
-    "shelljs": "latest"
+    "@types/cross-spawn": "^6.0.6",
+    "@types/node": "^22.5.5",
+    "cross-spawn": "^7.0.3",
+    "typescript": "^5.6.2",
+    "vsce": "^2.15.0"
   }
 }

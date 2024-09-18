@@ -1,4 +1,6 @@
-module.exports = {
+import { as, Theme } from '../../types'
+
+export default as<Theme.UiColors>({
   'activityBar.background': '#1E2227',
   'activityBar.foreground': '#d7dae0',
   'activityBarBadge.background': '#4d78cc',
@@ -203,4 +205,4 @@ module.exports = {
   'tree.indentGuidesStroke': '#e6e6e61d',
   'walkThrough.embeddedEditorBackground': '#2e3440',
   'welcomePage.buttonHoverBackground': '#404754',
-}
+})

@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "baseUrl": "./src",
+    "strict": true,
+    "skipLibCheck": true
+  },
+
+  "include": ["./src"]
+}

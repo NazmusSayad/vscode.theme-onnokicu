@@ -1,3 +1,5 @@
+dist
 node_modules
-*.vsix
-themes
+extension/*.vsix
+extension/themes
+extension/package.json

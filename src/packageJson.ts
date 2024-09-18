@@ -1,22 +1,25 @@
-module.exports = {
+export default {
   name: 'onnokicu',
+  version: '2.4.4',
+
   icon: 'icon.png',
   displayName: 'OnnoKicu',
-  version: '2.4.2',
   publisher: 'NazmusSayad',
-  description: '',
+
+  description:
+    'A dark theme for Visual Studio Code inspired by the Atom One Dark theme.',
+
   engines: {
     vscode: '^1.50.0',
   },
+
   categories: ['Themes'],
   contributes: {
-    themes: [
-      {
-        label: 'OnnoKicu',
-        uiTheme: 'vs-dark',
-        path: 'theme',
-      },
-    ],
+    themes: [] as {
+      label: string
+      uiTheme: string
+      path: string
+    }[],
   },
   repository: {
     type: 'git',
