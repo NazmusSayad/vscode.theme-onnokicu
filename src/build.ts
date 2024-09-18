@@ -1,17 +1,16 @@
 import fs from 'fs'
 import path from 'path'
 import themes from './themes'
+import { sync } from 'cross-spawn'
 import packageJson from './packageJson'
 import { cleanDir, cleanFile } from './utils'
-import { sync } from 'cross-spawn'
 
 const ROOT_DIR = path.resolve(__dirname, '..')
-const DIST_DIR = cleanDir(ROOT_DIR, './dist')
 const EXTENSION_DIR = path.resolve(__dirname, '../extension')
 const EXTENSION_THEME_DIR = cleanDir(EXTENSION_DIR, './themes')
 const EXTENSION_PACKAGE_JSON = cleanFile(EXTENSION_DIR, './package.json')
 const EXTENSION_OUT_FILE = path.join(
-  DIST_DIR,
+  ROOT_DIR,
   packageJson.name + '@' + packageJson.version + '.vsix'
 )
 

@@ -15,6 +15,8 @@ export module Theme {
     {
       foreground?: string
       background?: string
+      italic?: boolean
+      bold?: boolean
     }
   >
 
@@ -26,8 +28,4 @@ export module Theme {
       fontStyle?: string
     }
   }[]
-}
-
-export function as<const T extends any>(arg: T) {
-  return arg
 }

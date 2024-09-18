@@ -1,3 +1,4 @@
+import Color from 'color'
 import fs from 'fs'
 import path from 'path'
 
@@ -21,4 +22,16 @@ export function cleanFile(...paths: string[]) {
   }
 
   return file
+}
+
+
+export function convertToHex<T extends Record<string, Color>>(arg: T) {
+  const result = {} as Record<string, string>
+  for (const key in arg) {
+    result[key] = arg[key].hex()
+  }
+
+  return result as {
+    [K in keyof T]: string
+  }
 }

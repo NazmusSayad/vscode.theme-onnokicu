@@ -1,14 +1,18 @@
 {
   "type": "commonjs",
   "scripts": {
-    "dev": "run ./src/index.ts --ext ts",
-    "build": "ts-node ./src/index.ts"
+    "dev": "run ./src/dev.ts --ext ts",
+    "build": "ts-node ./src/build.ts"
   },
   "devDependencies": {
+    "@types/color": "^3.0.6",
     "@types/cross-spawn": "^6.0.6",
     "@types/node": "^22.5.5",
     "cross-spawn": "^7.0.3",
     "typescript": "^5.6.2",
     "vsce": "^2.15.0"
+  },
+  "dependencies": {
+    "color": "^4.2.3"
   }
 }
