@@ -10,7 +10,8 @@ const colors = convertToHex({
   orange: BASE_COLORS.orange.desaturate(0.15).darken(0.1),
   yellow: BASE_COLORS.yellow.desaturate(0.2).darken(0.1),
 
-  softRed: BASE_COLORS.softRed.desaturate(0.15).darken(0.066),
+  softRed: BASE_COLORS.softRed.desaturate(0.15).darken(0.05),
+  // softRed: BASE_COLORS.softRed.desaturate(0.15).darken(0.066),
 
   sky: BASE_COLORS.sky.darken(0.1),
   blue: BASE_COLORS.blue.desaturate(0.25).darken(0.1),
