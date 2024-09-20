@@ -1,6 +1,6 @@
 import { Theme } from '../../types'
 
-export default function (colors: Record<string, string>): Theme.TokenColors {
+export default function (colors: Theme.Colors): Theme.TokenColors {
   return [
     {
       scope: 'meta.embedded',
@@ -1632,12 +1632,6 @@ export default function (colors: Record<string, string>): Theme.TokenColors {
     },
 
     {
-      scope: ['variable.language.this', 'variable.language.arguments'],
-      settings: {
-        foreground: colors.orange,
-      },
-    },
-    {
       scope: [
         'entity.other.attribute-name.id',
         'entity.other.attribute-name.class',
@@ -1720,17 +1714,30 @@ export default function (colors: Record<string, string>): Theme.TokenColors {
         'keyword.control.warn.scss',
         'keyword.control.while.scss',
 
-        'keyword.control.flow.js',
-        'keyword.control.flow.js',
+        'keyword.control.flow',
+        'keyword.control.loop',
+
+        'keyword.control.import',
+        'keyword.control.from',
+        'keyword.control.as',
         'keyword.control.export',
         'keyword.control.default',
+
         'variable.language.super',
-        'entity.name.variable.process.js',
+        'storage.modifier',
       ],
       settings: {
         foreground: colors.violet + '70',
       },
     },
+
+    {
+      scope: ['variable.language.this', 'variable.language.arguments'],
+      settings: {
+        foreground: colors.orange + 'BB',
+      },
+    },
+
     {
       scope: ['support.type.object.module'],
       settings: {

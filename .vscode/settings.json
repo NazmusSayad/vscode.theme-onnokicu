@@ -1879,15 +1879,6 @@
       },
       {
         "scope": [
-          "variable.language.this",
-          "variable.language.arguments"
-        ],
-        "settings": {
-          "foreground": "#C18A57"
-        }
-      },
-      {
-        "scope": [
           "entity.other.attribute-name.id",
           "entity.other.attribute-name.class"
         ],
@@ -1967,15 +1958,27 @@
           "keyword.control.return.scss",
           "keyword.control.warn.scss",
           "keyword.control.while.scss",
-          "keyword.control.flow.js",
-          "keyword.control.flow.js",
+          "keyword.control.flow",
+          "keyword.control.loop",
+          "keyword.control.import",
+          "keyword.control.from",
+          "keyword.control.as",
           "keyword.control.export",
           "keyword.control.default",
           "variable.language.super",
-          "entity.name.variable.process.js"
+          "storage.modifier"
         ],
         "settings": {
           "foreground": "#B26CC770"
+        }
+      },
+      {
+        "scope": [
+          "variable.language.this",
+          "variable.language.arguments"
+        ],
+        "settings": {
+          "foreground": "#C18A57BB"
         }
       },
       {
