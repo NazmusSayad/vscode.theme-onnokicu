@@ -43,7 +43,7 @@ sync(
     path.relative(
       __dirname,
       path.join(
-        ROOT_DIR,
+        EXTENSION_DIR,
         packageJson.name + '@' + extPackageJson.version + '.vsix'
       )
     ),
