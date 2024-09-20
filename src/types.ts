@@ -1,8 +1,4 @@
-import colors from './themes/one-dark/colors'
-
 export module Theme {
-  export type Colors = typeof colors
-
   export type Theme = {
     label: string
     uiTheme: 'vs-dark' | 'vs-light'

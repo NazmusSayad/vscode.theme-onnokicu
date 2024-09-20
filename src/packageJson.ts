@@ -1,7 +1,5 @@
 export default {
   name: 'onnokicu',
-  version: '2.4.5',
-
   icon: 'icon.png',
   displayName: 'OnnoKicu',
   publisher: 'NazmusSayad',

@@ -9,12 +9,14 @@ const ROOT_DIR = path.resolve(__dirname, '..')
 const EXTENSION_DIR = path.resolve(__dirname, '../extension')
 const EXTENSION_THEME_DIR = cleanDir(EXTENSION_DIR, './themes')
 const EXTENSION_PACKAGE_JSON = cleanFile(EXTENSION_DIR, './package.json')
-const EXTENSION_OUT_FILE = path.join(
-  ROOT_DIR,
-  packageJson.name + '@' + packageJson.version + '.vsix'
-)
 
-const extPackageJson = { ...packageJson }
+const extPackageJson = {
+  version: JSON.parse(
+    fs.readFileSync(path.resolve(ROOT_DIR, 'package.json'), 'utf8')
+  ).version,
+  ...packageJson,
+}
+
 extPackageJson.contributes.themes = themes.map(
   ({ label, uiTheme, path: themePath, ...theme }) => {
     fs.writeFileSync(
@@ -34,7 +36,18 @@ fs.writeFileSync(EXTENSION_PACKAGE_JSON, JSON.stringify(extPackageJson))
 
 sync(
   'npx',
-  ['vsce', 'package', '--out', path.relative(__dirname, EXTENSION_OUT_FILE)],
+  [
+    'vsce',
+    'package',
+    '--out',
+    path.relative(
+      __dirname,
+      path.join(
+        ROOT_DIR,
+        packageJson.name + '@' + extPackageJson.version + '.vsix'
+      )
+    ),
+  ],
   {
     cwd: EXTENSION_DIR,
     stdio: 'inherit',

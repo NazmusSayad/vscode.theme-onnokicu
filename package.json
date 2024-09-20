@@ -1,8 +1,10 @@
 {
+  "version": "2.4.6",
   "type": "commonjs",
   "scripts": {
     "dev": "run ./src/dev.ts --ext ts",
-    "build": "ts-node ./src/build.ts"
+    "build": "ts-node ./src/build.ts",
+    "tsc": "tsc --watch --noEmit"
   },
   "devDependencies": {
     "@types/color": "^3.0.6",

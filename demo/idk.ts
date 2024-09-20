@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import {
   apiRouter,
   authRouter,
@@ -14,7 +16,7 @@ import { catchError } from 'extrass'
 import { app, customExtrass } from './express'
 import generateFsController from './controller/fs'
 import generateAuthController from './controller/auth'
-import multer  from 'multer'
+import multer from 'multer'
 
 arg
   .create('web', {
@@ -122,6 +124,9 @@ arg
         for (const [key, addresses] of networkEntries) {
           const ipv4 = addresses?.find((x) => x.family === 'IPv4')
           ipv4 && (await listen(key, config.port, ipv4?.address))
+          continue
+          break
+          return 'hello'
         }
       }
     })()

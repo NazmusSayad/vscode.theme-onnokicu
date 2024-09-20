@@ -3,6 +3,7 @@
     "desaturate",
     "onnokicu"
   ],
+  "workbench.colorTheme": "Default Dark Modern",
   "workbench.colorCustomizations": {
     "activityBar.background": "#1E2227",
     "activityBar.foreground": "#d7dae0",
@@ -1874,7 +1875,7 @@
           "string.regexp"
         ],
         "settings": {
-          "foreground": "#D46870"
+          "foreground": "#C18A57"
         }
       },
       {
@@ -1908,7 +1909,16 @@
       {
         "scope": "punctuation.definition.comment",
         "settings": {
-          "foreground": "#7F848E60"
+          "foreground": "#5C6370"
+        }
+      },
+      {
+        "scope": [
+          "variable.language.this",
+          "variable.language.arguments"
+        ],
+        "settings": {
+          "foreground": "#C18A57"
         }
       },
       {
@@ -1958,27 +1968,17 @@
           "keyword.control.return.scss",
           "keyword.control.warn.scss",
           "keyword.control.while.scss",
-          "keyword.control.flow",
-          "keyword.control.loop",
           "keyword.control.import",
-          "keyword.control.from",
-          "keyword.control.as",
           "keyword.control.export",
           "keyword.control.default",
+          "keyword.control.from",
+          "keyword.control.as",
+          "keyword.control.flow",
           "variable.language.super",
           "storage.modifier"
         ],
         "settings": {
-          "foreground": "#B26CC770"
-        }
-      },
-      {
-        "scope": [
-          "variable.language.this",
-          "variable.language.arguments"
-        ],
-        "settings": {
-          "foreground": "#C18A57BB"
+          "foreground": "#B26CC7"
         }
       },
       {

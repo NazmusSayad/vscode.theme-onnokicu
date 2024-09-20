@@ -1,6 +1,7 @@
 import { Theme } from '../../types'
+import { OneDarkColors } from './colors'
 
-export default function (colors: Theme.Colors): Theme.TokenColors {
+export default function (colors: OneDarkColors): Theme.TokenColors {
   return [
     {
       scope: 'meta.embedded',
@@ -1627,7 +1628,7 @@ export default function (colors: Theme.Colors): Theme.TokenColors {
     {
       scope: ['string.regexp'],
       settings: {
-        foreground: colors.softRed,
+        foreground: colors.orange,
       },
     },
 
@@ -1662,9 +1663,17 @@ export default function (colors: Theme.Colors): Theme.TokenColors {
     {
       scope: 'punctuation.definition.comment',
       settings: {
-        foreground: colors.gray + '60',
+        foreground: colors.dark,
       },
     },
+
+    {
+      scope: ['variable.language.this', 'variable.language.arguments'],
+      settings: {
+        foreground: colors.orange,
+      },
+    },
+
     {
       scope: [
         'keyword.control.at-rule.charset.css',
@@ -1714,27 +1723,19 @@ export default function (colors: Theme.Colors): Theme.TokenColors {
         'keyword.control.warn.scss',
         'keyword.control.while.scss',
 
-        'keyword.control.flow',
-        'keyword.control.loop',
-
         'keyword.control.import',
-        'keyword.control.from',
-        'keyword.control.as',
         'keyword.control.export',
         'keyword.control.default',
+        'keyword.control.from',
+        'keyword.control.as',
+
+        'keyword.control.flow',
 
         'variable.language.super',
         'storage.modifier',
       ],
       settings: {
-        foreground: colors.violet + '70',
-      },
-    },
-
-    {
-      scope: ['variable.language.this', 'variable.language.arguments'],
-      settings: {
-        foreground: colors.orange + 'BB',
+        foreground: colors.darkViolet,
       },
     },
 
