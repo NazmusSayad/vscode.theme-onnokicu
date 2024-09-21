@@ -9,6 +9,7 @@ import {
 import * as os from 'os'
 import arg from '../arg'
 import NoArg from 'noarg'
+import multer from 'multer'
 import * as path from 'path'
 import * as qrcode from 'qrcode'
 import * as express from 'express'
@@ -16,7 +17,6 @@ import { catchError } from 'extrass'
 import { app, customExtrass } from './express'
 import generateFsController from './controller/fs'
 import generateAuthController from './controller/auth'
-import multer from 'multer'
 
 arg
   .create('web', {

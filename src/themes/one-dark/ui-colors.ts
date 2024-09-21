@@ -1,4 +1,3 @@
- 
 export default function () {
   return {
     'activityBar.background': '#1E2227',
@@ -27,17 +26,15 @@ export default function () {
     'editor.findMatchHighlightBackground': '#6199ff30',
 
     'editorBracketHighlight.unexpectedBracket.foreground': '#e6e6e6',
-
+    'editorBracketHighlight.foreground1': '#d19a66',
+    'editorBracketHighlight.foreground2': '#9186CC',
+    'editorBracketHighlight.foreground3': '#56b6c2',
     // 'editorBracketHighlight.foreground1': '#ff6188d0',
     // 'editorBracketHighlight.foreground2': '#fc9867d0',
     // 'editorBracketHighlight.foreground3': '#ffd866c0',
     // 'editorBracketHighlight.foreground4': '#a9dc76d0',
     // 'editorBracketHighlight.foreground5': '#78dce8d0',
     // 'editorBracketHighlight.foreground6': '#ab9df2d0',
-
-    'editorBracketHighlight.foreground1': '#d19a66',
-    'editorBracketHighlight.foreground2': '#9186CC',
-    'editorBracketHighlight.foreground3': '#56b6c2',
 
     'editorInlayHint.foreground': '#abb2bf',
     'editorInlayHint.background': '#2c313c',
@@ -46,13 +43,17 @@ export default function () {
     'editorLineNumber.activeForeground': '#6b717d',
     'editorLineNumber.foreground': '#404754',
 
-    'editorGutter.addedBackground': '#109868',
-    'editorGutter.deletedBackground': '#9a353d',
-    'editorGutter.modifiedBackground': '#948b60',
+    'editorGutter.addedBackground': '#10986840',
+    'editorOverviewRuler.addedBackground': '#10986840',
+    'minimapGutter.addedBackground': '#10986840',
 
-    'editorOverviewRuler.addedBackground': '#109868',
-    'editorOverviewRuler.deletedBackground': '#9a353d',
-    'editorOverviewRuler.modifiedBackground': '#948b60',
+    'editorGutter.modifiedBackground': '#948b6050',
+    'editorOverviewRuler.modifiedBackground': '#948b6050',
+    'minimapGutter.modifiedBackground': '#948b6050',
+
+    'editorGutter.deletedBackground': '#9a353d60',
+    'editorOverviewRuler.deletedBackground': '#9a353d60',
+    'minimapGutter.deletedBackground': '#9a353d60',
 
     'editor.selectionBackground': '#67769650',
     'editor.selectionHighlightBackground': '#e6e6e610',
@@ -113,10 +114,6 @@ export default function () {
 
     'menu.foreground': '#abb2bf',
     'menu.separatorBackground': '#343a45',
-
-    'minimapGutter.addedBackground': '#109868',
-    'minimapGutter.deletedBackground': '#9a353d',
-    'minimapGutter.modifiedBackground': '#948b60',
 
     'panel.border': '#3e4452',
     'panelSectionHeader.background': '#1e2227',
