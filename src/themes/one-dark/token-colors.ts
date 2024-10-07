@@ -1735,7 +1735,7 @@ export default function (colors: OneDarkColors): Theme.TokenColors {
         'storage.modifier',
       ],
       settings: {
-        foreground: colors.darkViolet,
+        foreground: colors.darkViolet ?? colors.violet,
       },
     },
 

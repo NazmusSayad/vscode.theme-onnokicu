@@ -10,6 +10,7 @@ const VSCODE_SETTINGS_JSON = path.resolve(ROOT_DIR, './.vscode/settings.json')
 
 const jsonFile = JSON.parse(fs.readFileSync(VSCODE_SETTINGS_JSON, 'utf8'))
 const theme = themes[THEME_TO_APPLY]
+console.log('Applying theme:', theme.label)
 
 jsonFile['workbench.colorCustomizations'] = theme.colors
 jsonFile['editor.semanticHighlighting.enabled'] = theme.semanticHighlighting

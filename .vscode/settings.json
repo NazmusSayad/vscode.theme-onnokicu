@@ -174,7 +174,7 @@
       {
         "scope": "variable.other.generic-type.haskell",
         "settings": {
-          "foreground": "#B26CC7"
+          "foreground": "#B469CA"
         }
       },
       {
@@ -234,7 +234,7 @@
       {
         "scope": "support.constant.edge",
         "settings": {
-          "foreground": "#B26CC7"
+          "foreground": "#B469CA"
         }
       },
       {
@@ -248,7 +248,7 @@
           "keyword.operator.word"
         ],
         "settings": {
-          "foreground": "#B26CC7"
+          "foreground": "#B469CA"
         }
       },
       {
@@ -371,7 +371,7 @@
       {
         "scope": "keyword.operator.instanceof.java",
         "settings": {
-          "foreground": "#B26CC7"
+          "foreground": "#B469CA"
         }
       },
       {
@@ -467,7 +467,7 @@
           "keyword.operator.expression.keyof"
         ],
         "settings": {
-          "foreground": "#B26CC7"
+          "foreground": "#B469CA"
         }
       },
       {
@@ -497,13 +497,13 @@
       {
         "scope": "keyword.operator.sigil.rust",
         "settings": {
-          "foreground": "#B26CC7"
+          "foreground": "#B469CA"
         }
       },
       {
         "scope": "keyword.operator.delete",
         "settings": {
-          "foreground": "#B26CC7"
+          "foreground": "#B469CA"
         }
       },
       {
@@ -527,7 +527,7 @@
       {
         "scope": "keyword.operator.assignment.c,keyword.operator.comparison.c,keyword.operator.c,keyword.operator.increment.c,keyword.operator.decrement.c,keyword.operator.bitwise.shift.c,keyword.operator.assignment.cpp,keyword.operator.comparison.cpp,keyword.operator.cpp,keyword.operator.increment.cpp,keyword.operator.decrement.cpp,keyword.operator.bitwise.shift.cpp",
         "settings": {
-          "foreground": "#B26CC7"
+          "foreground": "#B469CA"
         }
       },
       {
@@ -539,7 +539,7 @@
       {
         "scope": "punctuation.separator.c,punctuation.separator.cpp",
         "settings": {
-          "foreground": "#B26CC7"
+          "foreground": "#B469CA"
         }
       },
       {
@@ -551,7 +551,7 @@
       {
         "scope": "keyword.operator.sizeof.c,keyword.operator.sizeof.cpp",
         "settings": {
-          "foreground": "#B26CC7"
+          "foreground": "#B469CA"
         }
       },
       {
@@ -569,7 +569,7 @@
       {
         "scope": "keyword.operator.logical.python",
         "settings": {
-          "foreground": "#B26CC7"
+          "foreground": "#B469CA"
         }
       },
       {
@@ -605,7 +605,7 @@
       {
         "scope": "keyword.operator.assignment.compound",
         "settings": {
-          "foreground": "#B26CC7"
+          "foreground": "#B469CA"
         }
       },
       {
@@ -617,7 +617,7 @@
       {
         "scope": "keyword",
         "settings": {
-          "foreground": "#B26CC7"
+          "foreground": "#B469CA"
         }
       },
       {
@@ -659,7 +659,7 @@
       {
         "scope": "token.package.keyword",
         "settings": {
-          "foreground": "#B26CC7"
+          "foreground": "#B469CA"
         }
       },
       {
@@ -722,7 +722,7 @@
       {
         "scope": "keyword.control",
         "settings": {
-          "foreground": "#B26CC7"
+          "foreground": "#B469CA"
         }
       },
       {
@@ -740,19 +740,19 @@
       {
         "scope": "storage",
         "settings": {
-          "foreground": "#B26CC7"
+          "foreground": "#B469CA"
         }
       },
       {
         "scope": "token.storage",
         "settings": {
-          "foreground": "#B26CC7"
+          "foreground": "#B469CA"
         }
       },
       {
         "scope": "keyword.operator.expression.delete,keyword.operator.expression.in,keyword.operator.expression.of,keyword.operator.expression.instanceof,keyword.operator.new,keyword.operator.expression.typeof,keyword.operator.expression.void",
         "settings": {
-          "foreground": "#B26CC7"
+          "foreground": "#B469CA"
         }
       },
       {
@@ -836,7 +836,7 @@
       {
         "scope": "meta.selector",
         "settings": {
-          "foreground": "#B26CC7"
+          "foreground": "#B469CA"
         }
       },
       {
@@ -872,13 +872,13 @@
       {
         "scope": "markup.italic,punctuation.definition.italic,todo.emphasis",
         "settings": {
-          "foreground": "#B26CC7"
+          "foreground": "#B469CA"
         }
       },
       {
         "scope": "emphasis md",
         "settings": {
-          "foreground": "#B26CC7"
+          "foreground": "#B469CA"
         }
       },
       {
@@ -962,7 +962,7 @@
       {
         "scope": "markup.underline.link.markdown,markup.underline.link.image.markdown",
         "settings": {
-          "foreground": "#B26CC7"
+          "foreground": "#B469CA"
         }
       },
       {
@@ -992,7 +992,7 @@
       {
         "scope": "markup.link.asciidoc,markup.other.url.asciidoc",
         "settings": {
-          "foreground": "#B26CC7"
+          "foreground": "#B469CA"
         }
       },
       {
@@ -1016,7 +1016,7 @@
       {
         "scope": "punctuation.section.embedded.begin,punctuation.section.embedded.end",
         "settings": {
-          "foreground": "#B26CC7"
+          "foreground": "#B469CA"
         }
       },
       {
@@ -1100,13 +1100,13 @@
       {
         "scope": "text.html.laravel-blade source.php.embedded.line.html entity.name.tag.laravel-blade",
         "settings": {
-          "foreground": "#B26CC7"
+          "foreground": "#B469CA"
         }
       },
       {
         "scope": "text.html.laravel-blade source.php.embedded.line.html support.constant.laravel-blade",
         "settings": {
-          "foreground": "#B26CC7"
+          "foreground": "#B469CA"
         }
       },
       {
@@ -1118,13 +1118,13 @@
       {
         "scope": "keyword.operator.error-control.php",
         "settings": {
-          "foreground": "#B26CC7"
+          "foreground": "#B469CA"
         }
       },
       {
         "scope": "keyword.operator.type.php",
         "settings": {
-          "foreground": "#B26CC7"
+          "foreground": "#B469CA"
         }
       },
       {
@@ -1190,7 +1190,7 @@
       {
         "scope": "keyword.operator.regexp.php",
         "settings": {
-          "foreground": "#B26CC7"
+          "foreground": "#B469CA"
         }
       },
       {
@@ -1202,7 +1202,7 @@
       {
         "scope": "keyword.operator.heredoc.php,keyword.operator.nowdoc.php",
         "settings": {
-          "foreground": "#B26CC7"
+          "foreground": "#B469CA"
         }
       },
       {
@@ -1310,7 +1310,7 @@
       {
         "scope": "token.debug-token",
         "settings": {
-          "foreground": "#B26CC7"
+          "foreground": "#B469CA"
         }
       },
       {
@@ -1320,7 +1320,7 @@
           "punctuation.section.embedded"
         ],
         "settings": {
-          "foreground": "#B26CC7"
+          "foreground": "#B469CA"
         }
       },
       {
@@ -1336,7 +1336,7 @@
           "keyword.operator.module"
         ],
         "settings": {
-          "foreground": "#B26CC7"
+          "foreground": "#B469CA"
         }
       },
       {
@@ -1425,7 +1425,7 @@
           "keyword.operator.address.go"
         ],
         "settings": {
-          "foreground": "#B26CC7"
+          "foreground": "#B469CA"
         }
       },
       {
@@ -1457,7 +1457,7 @@
           "punctuation.quasi.element"
         ],
         "settings": {
-          "foreground": "#B26CC7"
+          "foreground": "#B469CA"
         }
       },
       {
@@ -1584,7 +1584,7 @@
           "support.type.object.hlsl"
         ],
         "settings": {
-          "foreground": "#B26CC7"
+          "foreground": "#B469CA"
         }
       },
       {
@@ -1634,7 +1634,7 @@
           "constant.regexp.xi"
         ],
         "settings": {
-          "foreground": "#B26CC7"
+          "foreground": "#B469CA"
         }
       },
       {
@@ -1850,7 +1850,7 @@
           "constant.numeric.decimal.asm.x86_64"
         ],
         "settings": {
-          "foreground": "#B26CC7"
+          "foreground": "#B469CA"
         }
       },
       {
@@ -1977,7 +1977,7 @@
           "storage.modifier"
         ],
         "settings": {
-          "foreground": "#B26CC7"
+          "foreground": "#8B549B"
         }
       },
       {

@@ -20,9 +20,8 @@ export const BASE_COLORS = {
 
   green: Color('#98c379'),
   violet: Color('#c678dd'),
-  darkViolet: Color('#b26cc7'),
 } as const
 
 const colors = convertToHex(BASE_COLORS)
-export type OneDarkColors = typeof colors
+export type OneDarkColors = typeof colors & Record<string, string>
 export default colors
