@@ -17,7 +17,7 @@ const colors = convertToHex({
 
   green: BASE_COLORS.green.darken(0.1).desaturate(0.25),
   violet: BASE_COLORS.violet.darken(0.1).desaturate(0.2),
-  darkViolet: Color('#8E57A1').whiten(0.025),
+  darkViolet: Color('#8C569E').whiten(0.1),
 })
 
 export default {
