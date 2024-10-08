@@ -23,5 +23,5 @@ export const BASE_COLORS = {
 } as const
 
 const colors = convertToHex(BASE_COLORS)
-export type OneDarkColors = typeof colors & Record<string, string>
+export type OneDarkColors = typeof colors & { darkViolet?: string }
 export default colors

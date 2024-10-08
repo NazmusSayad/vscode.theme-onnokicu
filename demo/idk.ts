@@ -124,9 +124,10 @@ arg
         for (const [key, addresses] of networkEntries) {
           const ipv4 = addresses?.find((x) => x.family === 'IPv4')
           ipv4 && (await listen(key, config.port, ipv4?.address))
-          continue
-          break
           return 'hello'
+          const abc = 'abc'
+          break
+          continue
         }
       }
     })()

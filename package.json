@@ -1,5 +1,5 @@
 {
-  "version": "2.4.8",
+  "version": "2.4.9",
   "type": "commonjs",
   "scripts": {
     "dev": "run ./src/dev.ts --ext ts",

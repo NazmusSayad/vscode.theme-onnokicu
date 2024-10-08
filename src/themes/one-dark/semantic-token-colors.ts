@@ -1,4 +1,6 @@
-export default function (colors: Record<string, string>) {
+import { OneDarkColors } from './colors'
+
+export default function (colors: OneDarkColors) {
   return {
     'variable.constant': { foreground: colors.orange },
     'variable.defaultLibrary': { foreground: colors.yellow },

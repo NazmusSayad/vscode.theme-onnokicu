@@ -34,6 +34,15 @@ extPackageJson.contributes.themes = themes.map(
 
 fs.writeFileSync(EXTENSION_PACKAGE_JSON, JSON.stringify(extPackageJson))
 
+fs.readdirSync(EXTENSION_DIR).forEach((file) => {
+  if (file.endsWith('.vsix')) {
+    fs.rmSync(path.resolve(EXTENSION_DIR, file), {
+      force: true,
+      recursive: true,
+    })
+  }
+})
+
 sync(
   'npx',
   [

@@ -24,14 +24,16 @@ export function cleanFile(...paths: string[]) {
   return file
 }
 
-
-export function convertToHex<T extends Record<string, Color>>(arg: T) {
+export function convertToHex<T extends Record<string, Color | unknown>>(
+  arg: T
+) {
   const result = {} as Record<string, string>
   for (const key in arg) {
-    result[key] = arg[key].hex()
+    if (arg[key] instanceof Color) result[key] = arg[key].hex()
+    else result[key] = arg[key] as any
   }
 
   return result as {
-    [K in keyof T]: string
+    [K in keyof T]: T[K] extends Color ? string : T[K]
   }
 }
