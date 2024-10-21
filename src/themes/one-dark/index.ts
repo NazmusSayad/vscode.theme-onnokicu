@@ -8,7 +8,7 @@ export default {
   label: 'OnnoKicu - One Dark',
   uiTheme: 'vs-dark',
 
-  colors: uiColors(),
+  colors: uiColors(colors),
   tokenColors: tokenColors(colors),
 
   semanticHighlighting: true,

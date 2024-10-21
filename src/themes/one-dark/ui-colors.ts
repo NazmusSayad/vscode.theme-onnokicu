@@ -1,4 +1,7 @@
-export default function () {
+import Color from 'color'
+import { OneDarkColors } from './colors'
+
+export default function (colors: OneDarkColors) {
   return {
     'activityBar.background': '#1E2227',
     'activityBar.foreground': '#d7dae0',
@@ -161,34 +164,34 @@ export default function () {
     'tab.inactiveModifiedBorder': '#abb2bf50',
     'tab.unfocusedInactiveModifiedBorder': '#abb2bf50',
 
-    'terminal.ansiBlack': '#3f4451',
-    'terminal.ansiBrightBlack': '#4f5666',
-
-    'terminal.ansiBlue': '#4aa5f0',
-    'terminal.ansiBrightBlue': '#4dc4ff',
-
-    'terminal.ansiCyan': '#42b3c2',
-    'terminal.ansiBrightCyan': '#4cd1e0',
-
-    'terminal.ansiGreen': '#8cc265',
-    'terminal.ansiBrightGreen': '#a5e075',
-
-    'terminal.ansiMagenta': '#c162de',
-    'terminal.ansiBrightMagenta': '#de73ff',
-
-    'terminal.ansiRed': '#e05561',
-    'terminal.ansiBrightRed': '#ff616e',
-
-    'terminal.ansiWhite': '#d7dae0',
-    'terminal.ansiBrightWhite': '#e6e6e6',
-
-    'terminal.ansiYellow': '#d18f52',
-    'terminal.ansiBrightYellow': '#f0a45d',
-
     'terminal.border': '#3e4452',
-    'terminal.foreground': '#abb2bf',
+    'terminal.foreground': colors.ansiForeground,
     'terminal.background': '#1e2227',
     'terminal.selectionBackground': '#FFFF0060',
+
+    'terminal.ansiWhite': colors.ansiWhite,
+    'terminal.ansiBrightWhite': colors.ansiWhiteBright,
+
+    'terminal.ansiBlack': colors.ansiBlack,
+    'terminal.ansiBrightBlack': colors.ansiBlackBright,
+
+    'terminal.ansiBlue': colors.ansiBlue,
+    'terminal.ansiBrightBlue': colors.ansiBlueBright,
+
+    'terminal.ansiCyan': colors.ansiCyan,
+    'terminal.ansiBrightCyan': colors.ansiCyanBright,
+
+    'terminal.ansiGreen': colors.ansiGreen,
+    'terminal.ansiBrightGreen': colors.ansiGreenBright,
+
+    'terminal.ansiMagenta': colors.ansiMagenta,
+    'terminal.ansiBrightMagenta': colors.ansiMagentaBright,
+
+    'terminal.ansiRed': colors.ansiRed,
+    'terminal.ansiBrightRed': colors.ansiRedBright,
+
+    'terminal.ansiYellow': colors.ansiYellow,
+    'terminal.ansiBrightYellow': colors.ansiYellowBright,
 
     'textBlockQuote.background': '#2e3440',
     'textBlockQuote.border': '#4b5362',

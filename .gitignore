@@ -3,3 +3,4 @@ dist
 *.vsix
 extension/themes
 extension/package.json
+.vscode
