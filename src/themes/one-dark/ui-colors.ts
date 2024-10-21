@@ -115,7 +115,7 @@ export default function () {
     'menu.foreground': '#abb2bf',
     'menu.separatorBackground': '#343a45',
 
-    'panel.border': '#3e4452',
+    'panel.border': '#2c313cbb',
     'panelSectionHeader.background': '#1e2227',
 
     'peekViewEditor.background': '#1D1F23',
