@@ -115,7 +115,8 @@ export default function () {
     'menu.foreground': '#abb2bf',
     'menu.separatorBackground': '#343a45',
 
-    'panel.border': '#2c313cbb',
+    'panel.border': '#21252C',
+    'panel.background': '#1e2227',
     'panelSectionHeader.background': '#1e2227',
 
     'peekViewEditor.background': '#1D1F23',
@@ -185,8 +186,8 @@ export default function () {
     'terminal.ansiBrightYellow': '#f0a45d',
 
     'terminal.border': '#3e4452',
-    'terminal.background': '#21252C',
     'terminal.foreground': '#abb2bf',
+    'terminal.background': '#1e2227',
     'terminal.selectionBackground': '#FFFF0060',
 
     'textBlockQuote.background': '#2e3440',
