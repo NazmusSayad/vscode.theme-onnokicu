@@ -3,9 +3,10 @@ import { Theme } from '../../types'
 import uiColors from './ui-colors'
 import tokenColors from './token-colors'
 import semanticTokenColors from './semantic-token-colors'
+import { config } from '../../packageJson'
 
 export default {
-  label: 'OnnoKicu - One Dark',
+  label: config.themeNamePrefix + ' One Darken',
   uiTheme: 'vs-dark',
 
   colors: uiColors(colors),

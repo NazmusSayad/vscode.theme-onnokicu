@@ -5,6 +5,7 @@ import uiColors from '../one-dark/ui-colors'
 import { BASE_COLORS } from '../one-dark/colors'
 import tokenColors from '../one-dark/token-colors'
 import semanticTokenColors from '../one-dark/semantic-token-colors'
+import { config } from '../../packageJson'
 
 const colors = convertToHex({
   ...BASE_COLORS,
@@ -21,7 +22,7 @@ const colors = convertToHex({
 })
 
 export default {
-  label: 'OnnoKicu - Eye Care',
+  label: config.themeNamePrefix + ' Extreme Eye Care',
   uiTheme: 'vs-dark',
 
   colors: uiColors(colors),

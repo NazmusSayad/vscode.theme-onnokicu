@@ -1,6 +1,7 @@
 import fs from 'fs'
 import path from 'path'
 import themes from './themes'
+import { config } from './packageJson'
 
 const THEME_TO_APPLY = 0
 // const THEME_TO_APPLY = 1
@@ -35,7 +36,7 @@ const windowsTerminalJsonFile = JSON.parse(
 )
 
 windowsTerminalJsonFile.schemes.forEach((scheme: any) => {
-  if (scheme.name !== 'OnnoKicu') return
+  if (scheme.name !== config.themeNamePrefix) return
   scheme.background = theme.colors['terminal.background']
   scheme.foreground = theme.colors['terminal.foreground']
   scheme.white = theme.colors['terminal.ansiWhite']
